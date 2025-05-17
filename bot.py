@@ -10,14 +10,14 @@ from Youtube.config import Config
 # Create a Pyrogram client
 app = Client(
     "my_bot",
-    api_id=Config.API_ID, 
-    api_hash=Config.API_HASH, 
-    bot_token=Config.BOT_TOKEN,
+    api_id=Config.22684706, 
+    api_hash=Config.99e594d26bbf56b0a6840b390e6fa0c0, 
+    bot_token=Config.7953938944:AAGHVgN0aIIwHsdeERpvXOazp07w6MFhm_k,
     plugins=dict(root="Youtube")
 )
 
 
 
 # Start the bot
-print("🎊 I AM ALIVE 🎊")
+print("Salom men sizga Youtube uchun bemalol sizga videolarni yuklab bera olaman")
 app.run()
